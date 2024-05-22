@@ -1,0 +1,15 @@
+[project]
+name = "stability-comfyui-nodes"
+description = "Nodes: ColorBlend, ControlLoraSave, GetImageSize. NOTE: Control-LoRA recolor example uses these nodes."
+version = "1.0.0"
+license = "LICENSE"
+dependencies = ["opencv-python"]
+
+[project.urls]
+Repository = "https://github.com/Stability-AI/stability-ComfyUI-nodes"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "stability-ComfyUI-nodes"
+Icon = ""
